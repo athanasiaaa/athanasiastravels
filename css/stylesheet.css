@@ -1,0 +1,135 @@
+/*google font from external source*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*for my headers*/
+
+h1 {
+    color: #6d1227;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #ad0126;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: #ad0126;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: #ad0126;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    color: #ad0126;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    color: #800000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 960px;
+    margin: 10px auto;
+    background-color: rgba(255,255,255,.5);
+    overflow: auto;
+    border-radius: 2%;
+    
+}
+
+}
+    
+#menubar {
+    color: #800000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    border: 1px black solid;
+    text-align: center;
+}
+
+li {
+    display:inline-block;
+}
+
+#sidebar {
+    color: #800000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    border: 1px black solid;
+    width: 210px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+/*content css*/
+
+#content {
+    color: #800000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px;
+    width: 700px;
+    height: 800px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba();
+    overflow: scroll;
+  
+    overflow-x: hidden;
+}
+
+
+/*for the page background*/
+
+body {
+   
+   background-color: #dbccab;
+   background-image: url(../images/plane2.jpeg);
+   background-position: right bottom;
+   background-attachment: fixed;
+    
+}
+
+
+#footer {
+    color: #800000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+
+/*link coloring*/
+a:link {
+    color: #8e626c;
+}
+
+/* visited link */
+a:visited {
+    color: #8e626c;
+}
+
+/* mouse over link */
+a:hover {
+    color: #8e626c;
+}
+
+/* selected link */
+a:active {
+    color: #8e626c;
+}
+
